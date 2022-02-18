@@ -1,34 +1,41 @@
-# Welcome to Remix!
+# Burger reviews app 🍔🧐
 
-- [Remix Docs](https://remix.run/docs)
+Share your burger reviews with the world.
 
-## Deployment
+## Authors
 
-After having run the `create-remix` command and selected "Vercel" as a deployment target, you only need to [import your Git repository](https://vercel.com/new) into Vercel, and it will be deployed.
+- [@juanzitelli](https://www.github.com/juanzitelli)
 
-If you'd like to avoid using a Git repository, you can also deploy the directory by running [Vercel CLI](https://vercel.com/cli):
+## Run Locally
 
-```sh
-npm i -g vercel
-vercel
+Clone the project
+
+```zsh
+  git clone git@github.com:juanzitelli/burger-reviews-hd.git
 ```
 
-It is generally recommended to use a Git repository, because future commits will then automatically be deployed by Vercel, through its [Git Integration](https://vercel.com/docs/concepts/git).
+Go to the project directory
 
-## Development
-
-To run your Remix app locally, make sure your project's local dependencies are installed:
-
-```sh
-npm install
+```zsh
+  cd burger-reviews-hd
 ```
 
-Afterwards, start the Remix development server like so:
+Install dependencies
 
-```sh
-npm run dev
+```zsh
+  yarn
 ```
 
-Open up [http://localhost:3000](http://localhost:3000) and you should be ready to go!
+Start the server
 
-If you're used to using the `vercel dev` command provided by [Vercel CLI](https://vercel.com/cli) instead, you can also use that, but it's not needed.
+```zsh
+  yarn dev
+```
+
+## License
+
+Read LICENSE.md
+
+## Demo
+
+> TODO: Deployment
