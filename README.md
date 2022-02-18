@@ -38,4 +38,4 @@ Read LICENSE.md
 
 ## Demo
 
-> TODO: Deployment
+[Vercel deployment](https://burger-reviews.vercel.app/)
