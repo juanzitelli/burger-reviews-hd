@@ -7,10 +7,15 @@ import {
   ScrollRestoration,
 } from "remix";
 import type { MetaFunction } from "remix";
+import tailwindCssGeneratedStylesUrl from "./tailwind.css";
 
 export const meta: MetaFunction = () => {
   return { title: "Burger reviews" };
 };
+
+export function links() {
+  return [{ rel: "stylesheet", href: tailwindCssGeneratedStylesUrl }];
+}
 
 export default function App() {
   return (
