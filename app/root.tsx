@@ -13,11 +13,11 @@ export const meta: MetaFunction = () => {
   return { title: "Burger reviews" };
 };
 
-export function links() {
+export const links = () => {
   return [{ rel: "stylesheet", href: tailwindCssGeneratedStylesUrl }];
-}
+};
 
-export default function App() {
+const App = () => {
   return (
     <html lang="en">
       <head>
@@ -34,4 +34,6 @@ export default function App() {
       </body>
     </html>
   );
-}
+};
+
+export default App;
