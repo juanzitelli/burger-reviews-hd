@@ -24,10 +24,11 @@ model Review {
 }
 
 model Place {
-  id      Int      @id @default(autoincrement())
-  name    String
-  reviews Review[]
-  burgers Burger[]
+  id            Int      @id @default(autoincrement())
+  name          String
+  googleMapsUrl String
+  reviews       Review[]
+  burgers       Burger[]
 }
 
 model Burger {
